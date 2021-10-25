@@ -1,0 +1,126 @@
+/* colors: #EEB94E,#17385C,#C24329,#1E5052,#A1A7A0 
+font-family: 'Didact Gothic', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+*{
+    margin:0;
+    padding: 0;box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.pic:hover {
+    box-shadow:-1px 3px 5px rgba(253, 252, 252, 0.5);
+}
+/* ####################################### NAV ################################################### */
+nav {
+    background-color: #17385C;
+    text-align: center;
+    padding:2%;
+}
+nav img{
+    padding:2%;
+    border:1px solid rgba(253, 252, 252, 0.2);
+}
+nav img:hover {
+    box-shadow:1px 1px 14px 4px rgba(253, 252, 252, 0.5);
+}
+
+/* ###################### Header ################# ################################################### */
+header {
+    background-color:#EEB94E ;
+    color:#17385C;  
+    padding:5%;
+    /* position: relative;  */ 
+}
+header h1 {
+    font-size: 100px;
+    margin:0 auto;
+    text-align: center;
+}
+
+header article {
+    background: url("../img/pouring.jpg") left/contain no-repeat;
+    width: 85vw;
+    height: 90vh;
+    color:#C24329;
+    margin: 3% 0 0 2%;
+ }
+
+header article p {
+ font-size: 20px;
+ padding: 2%;
+ text-align: right;
+ }
+header article span {
+    padding: 3%;
+    font-size: 40px;
+    color:#1E5052;
+}
+header article span i:hover{
+    font-size:45px ;
+}
+header img {
+    width: 40vw;
+    height: 45vh;
+    position: absolute;
+    right:10% ;
+    bottom:-53%;
+}
+
+/* ####################### MAIN ################ ################################################### */
+main{
+    background-color:#C24329;
+    color:#17385C;
+    padding-top:5%;
+}
+main h2 {
+    text-align: right;
+    font-size: 50px;
+}
+
+main img {
+    width: 40vw;
+    height: 45vh; 
+    margin: 5vh 0 3vh 5vw;
+}
+
+main button{
+    font-size: 3rem;
+    background-color: #C24329;
+    outline: none;
+    padding:1%;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    position: absolute;
+    bottom: -90%;
+    right: 15%;
+}
+main button:hover{
+    box-shadow: 1px 1px 14px 4px rgba(253, 252, 252, 0.5);
+    text-shadow: 1px 1px 14px 4px rgba(253, 252, 252, 0.5);
+}
+main a {
+    text-decoration: none;
+    color:#fff;
+}
+
+/* ####################### FOOTER ################################################### */
+footer {
+    background-color: #17385C;
+    color:#EEB94E;
+}
+footer a{
+    color: #EEB94E;
+}
+footer a:hover{
+    box-shadow:1px 1px 14px 4px rgba(253, 252, 252, 0.5) ;
+}
+footer ul{
+    text-align: center;
+    margin-right: 3%;
+}
+footer ul li {
+display: inline-block;
+   padding:3%;
+}
